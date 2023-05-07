@@ -26,6 +26,7 @@ public class reportCard {
 	
 //while loop to run until user is finished with program (end command is done) and get user info about class and grades
 	while (!studentName.equals("done")) {
+		gpa=0.00;
 		for (int i=0;i<3;i++) {
 			System.out.print("\nEnter class name: ");
 			className.add(input.nextLine());
@@ -77,7 +78,7 @@ public class reportCard {
 		
 		System.out.format("\n-----------------------------------------------------------");
 		
-		System.out.format("\n                                                GPA: %.2f", (gpa/3));
+		System.out.format("\n                                                 GPA: %.2f", (gpa/3));
 		
 //if statement to determine whether the student made the Dean's List
 		if ((gpa/3)>=3.50) {
