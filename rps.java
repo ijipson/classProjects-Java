@@ -1,6 +1,6 @@
 //Izabel Jipson
 //Rock Paper Scissors Program
-//This program allows users to play rock paper scissors against a computer
+//This program allows users to play rock paper scissors against a computer (bonus challenge was to run the rock, paper, scissors model from Big Bang Theory)
 //March 16, 2023
 
 //imports scanner and random libraries
