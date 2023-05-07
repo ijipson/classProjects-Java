@@ -85,15 +85,9 @@ public class rps {
 			
 			 
 //game logic: uses if statement for all tie possibilities for user			 
-			 if (choice.equals("Rock")&& cplay.equals("Rock")||
-			     choice.equals("Paper")&& cplay.equals("Paper")|| 
-			     choice.equals("Scissors")&& cplay.equals("Scissors")|| 
-			     choice.equals("Lizard")&& cplay.equals("Lizard")||
-				 choice.equals("Spock")&& cplay.equals("Spock")
-			     ) {
-				 
-				 System.out.println("\nIt's a tie!");
-			 }
+			 if (choice.equals(cplay)){
+			     System.out.println("\nIt's a tie!");
+				}
 			 
 //game logic: uses if statement for all win possibilities for user					 
 			 else if (choice.equals("Scissors")&& cplay.equals("Paper")||
